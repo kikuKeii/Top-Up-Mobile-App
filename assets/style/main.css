@@ -1,0 +1,23 @@
+::-webkit-scrollbar {
+  width: 2px !important;
+  height: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffd7cf;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ee4d2d;
+  border-radius: 0px;
+}
+
+.mainMenu,
+.populerGames {
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
